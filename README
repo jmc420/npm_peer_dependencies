@@ -1,0 +1,8 @@
+
+An example to show problem with multiple copies of React.
+
+To install, run npm install
+To build, run npm run all
+
+To see error with multiple copies of react, cd parent and npm run test
+

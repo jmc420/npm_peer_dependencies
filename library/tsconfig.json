@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "isolatedModules": false,
+        "jsx": "react",
+        "lib": ["dom","es2015"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "noLib": false,
+        "outDir": "./lib",
+        "removeComments": true,
+        "target": "es5",
+        "types": [
+           
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "typings"
+    ],
+    "include": [
+        "src/ts"
+      ]
+}

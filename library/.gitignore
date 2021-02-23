@@ -1,0 +1,7 @@
+/node_modules/
+/lib/*
+/coverage/
+/tmp/
+chrome/bundle.js*
+
+.DS_Store

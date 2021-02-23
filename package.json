@@ -1,0 +1,19 @@
+{
+  "name": "npm_peer_dependencies",
+  "version": "1.0.0",
+  "dependencies": {},
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "scripts": {
+    "all": "npm run build-library && npm run build-parent",
+    "clean": "npm run clean-library && npm run clean-parent",
+    "build-library": "cd library && npm run all",
+    "build-parent": "cd parent && npm run all",
+    "clean-library": "cd library && npm run clean",
+    "clean-parent": "cd parent && npm run clean",
+    "postinstall": "npm run install-library && npm run install-parent",
+    "install-library": "cd library && npm i",
+    "install-parent": "cd parent && npm i"
+  }
+}
